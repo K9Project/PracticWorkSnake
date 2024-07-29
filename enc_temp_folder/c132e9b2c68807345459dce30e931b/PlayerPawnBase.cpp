@@ -21,7 +21,6 @@ void APlayerPawnBase::BeginPlay()
 {
 	Super::BeginPlay();
 	SetActorRotation(FRotator(-90, 0, 0));
-	CreateSnakeActor();
 	
 }
 
